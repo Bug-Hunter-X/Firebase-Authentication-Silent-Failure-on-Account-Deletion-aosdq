@@ -1,0 +1,1 @@
+The Firebase Authentication SDK might throw an unexpected error if the user's account is deleted after they have successfully signed in, but before a subsequent operation that requires authentication, like accessing Firestore data.  This can lead to silent failures where the app doesn't provide clear feedback to the user about why the operation failed.
